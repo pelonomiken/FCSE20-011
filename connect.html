@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New York</title>
+
+	<script type="text/javascript">
+	<!--
+	
+	function validation()
+	{
+	    if (document.feedback.fname.value=="")
+		{
+		alert ("Please provide your First Name:");
+		document.connect.fname.focus();
+		return false;
+		}
+		
+		if (document.feedback.sname.value=="")
+		{
+		alert ("Please provide your Surname:");
+		document.connect.sname.focus();
+		return false;
+		}
+
+		if (document.connect.email.value=="")
+		{
+		alert ("Please provide your Emailaddress:");
+		document.connect.email.focus();
+		return false;	
+		}
+
+		if (document.feedback.country.value=="")
+		{
+		alert ("Please provide your Country:");
+		document.connect.country.focus();
+		return false;
+		}
+		
+		if (document.feedback.region.value=="")
+		{
+		alert ("Please provide your Region:");
+		document.connect.sname.focus();
+		return false;
+		}
+
+		if (document.connect.pnumber.value=="")
+		{
+		alert ("Please provide your Phone Number:");
+		document.connect.pnumber.focus();
+		return false;	
+		}		
+		
+		
+    }
+
+
+
+    </script>	
+
+	<link rel="stylesheet" href="CSS/connect.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+
+	<!-- Top Navigation -->
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><a href="index.html">Travel</a></label>
+		<ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="lifeStyle.html">LifeStyle</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="connect.html">Connect With Us</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="container">
+				<h1 class="h1">Get in Touch</h1>	
+		</div>
+		<style>
+            	/* this is the internal css */
+            .container a:hover {
+                background-color: var(--dark);
+                color: var(--theme);
+            }
+            </style>
+	</section>
+
+	<!-- The page Content -->
+	<section class="form-around" id="fa">
+		<div class="fa-container">
+			<div class="title">Newsletter</div>
+			<form action="thankyou.html" class="">
+				<div class="user-details">
+					<div class="input-box">
+						<span class="details">First Name</span>
+						<input type="text" placeholder="Enter Your First Name" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Surname</span>
+						<input type="text" placeholder="Enter Your Last Name" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Email Address</span>
+						<input type="text" placeholder="Enter Your Email" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Country</span>
+						<input type="text" placeholder="Enter Your Country" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Region</span>
+						<input type="text" placeholder="Enter Your Region" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Phone Number</span>
+						<input type="text" placeholder="Enter Your Phone Number" required>
+					</div>
+				</div>
+				<div class="news-info">
+					<input type="radio" name="Gender" id="dot-1">
+					<input type="radio" name="Gender" id="dot-2">
+					<input type="radio" name="Gender" id="dot-3">
+					<span class="news-title">Select</span>
+					<div class="category">
+						<label for="dot-1">
+							<span class="dot one"></span>
+							<span class="news">Weekly</span>
+						</label>
+						<label for="dot-2">
+							<span class="dot two"></span>
+							<span class="news">Monthly</span>
+						</label>
+						<label for="dot-3">
+							<span class="dot three"></span>
+							<span class="news">Yearly</span>
+						</label>
+					</div>
+				</div>
+				<div class="button">
+					
+					<input type="Submit" Value="Subscribe">
+					<a href="thankyou.html"></a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<span>Designed By <a href="#">Aobakwe Kenosi,Email:pelonomiken@gmail,Contact:73283840</a> | <span class="far fa-copyright"></span> 2021 all rights reserved.</span>
+	</footer>
+</body>
+</html>
